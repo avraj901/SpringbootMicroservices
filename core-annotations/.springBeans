@@ -9,8 +9,15 @@
 	<configs>
 		<config>src/main/resources/com/autowire/annotation/autowire-annotations.xml</config>
 		<config>src/main/resources/com/stereotype/annotations/stereotype-beans.xml</config>
+		<config>src/main/java/com/conf/val/annotations/value-beans.xml</config>
+		<config>src/main/java/com/stereotype/dependson/annotation/dependson-config.xml</config>
 	</configs>
 	<autoconfigs>
+		<config>java:com.scope_value.annotations.Ticket</config>
+		<config>java:com.conf.val.annotations.Ticket</config>
+		<config>java:com.conf.val.annotations.Ticket1</config>
+		<config>java:com.stereotype.annotations.Toy</config>
+		<config>java:com.stereotype.val.annotations.Book</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
